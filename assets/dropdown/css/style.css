@@ -281,6 +281,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-size: 20px;
+  color: #000;
 }
 
 .menu li{
@@ -296,16 +297,18 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
-  background: whitesmoke;
+  background: rgb(255, 255, 255);
 }
 
 .menu ul li+li{
-  border-top: 1px solid #fff;
+  color: #000;
+  border-top: 1px solid rgb(0, 0, 0);
 }
 
 .menu ul{
+  color: #000;
   position: absolute;
-  box-shadow:  5px 5px 10px 0 rgba(0,0,0, 0.5);
+  box-shadow:  0px 0px 0px 0 rgba(0, 0, 0, 0.5);
 }
 
 .menu > li ul, .menu ul ul{
@@ -332,6 +335,7 @@
 }
 
 .menu > li:hover > ul{
+  color: #000;
   top: 0%;
   opacity: 1;
   z-index: 1;
@@ -339,6 +343,7 @@
 }
 
 .menu ul > li:hover > ul{
+  color: #000;
   left: 0%;
   opacity: 1;
   z-index: 1;
@@ -346,11 +351,11 @@
 }
 
 .menu-gold, .menu-gold a{
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 .menu-gold a:hover{
-  background-color: #000;
-  color: #000;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 /* ends */
